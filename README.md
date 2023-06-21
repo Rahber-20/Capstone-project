@@ -6,6 +6,12 @@
 
 
 > ### [Working App Link](http://lustrous-mandazi-fffc8a.netlify.app)
+> First Sign Up with email id and password if a new user.
+
+#### Sample Id and password to login with if some problem occurs-
+> heyRiz@gmail.com
+> 
+> `password`: abc123
 
 ---
 
