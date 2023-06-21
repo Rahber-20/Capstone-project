@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const userRoutes = require("./routes/UserRoutes");
 const mongoose = require("mongoose");
+const path = require('path')
 
 const DB = "mongodb+srv://syedrahber:rahber1998@cluster0.9wxbzcn.mongodb.net/flixxit?retryWrites=true&w=majority"
 
@@ -25,6 +26,13 @@ mongoose
   });
 
 app.use("/api/user", userRoutes);
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 
 app.listen(5000, () => {
   console.log("server started on port 5000");
