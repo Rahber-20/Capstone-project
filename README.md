@@ -77,7 +77,7 @@ Authentication for the users logging in and signing up with their email id and p
 
 > ### **Database**
 
-For storing the data when user adds movies cloud version of `MongoDB` is used here which is `MongoDB Atlas` , connected with its own uri string.
+For storing the data when user adds and removes movies from their list cloud version of `MongoDB` is used here which is `MongoDB Atlas` , connected with its own uri string.
 
 
 > ### **Deployment**
