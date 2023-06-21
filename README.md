@@ -9,7 +9,7 @@
 > First Sign Up with email id and password if a new user.
 
 #### Sample Id and password to login with if some problem occurs-
-> heyRiz@gmail.com
+> heyriz@gmail.com
 > 
 > `password`: abc123
 
