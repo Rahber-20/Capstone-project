@@ -1,1 +1,1 @@
-const BASE_URL = "https://flixxit.onrender.com";
+export const BASE_URL = "https://flixxit.onrender.com";
